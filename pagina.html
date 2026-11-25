@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar — LibreOffice</title>
+    <style>
+        :root {
+            --primary-color: #24a47f; /* Verde característico de LibreOffice */
+            --dark-bg: #333333;
+            --light-bg: #f5f5f5;
+            --text-color: #333;
+            --border-color: #ddd;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: var(--dark-bg);
+            margin-bottom: 30px;
+        }
+
+        .download-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: box-shadow 0.3s;
+        }
+
+        .download-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .os-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+
+        .os-info p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .btn-download {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .btn-download:hover {
+            background-color: #1e8c6d;
+        }
+
+        .section-title {
+            margin-top: 40px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--dark-bg);
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">LibreOffice</a>
+        <nav>
+            <a href="#">Funcionalidades</a>
+            <a href="#">Descarga</a>
+            <a href="#">Soporte</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Descargar LibreOffice</h1>
+
+        <!-- Tarjeta Windows -->
+        <div class="download-card">
+            <div class="os-info">
+                <h3>26.8.3 Windows (x86-64)</h3>
+                <p>Descargar mediante torrent o consultar los enlaces alternativos.</p>
+            </div>
+            <a href="#" class="btn-download">Descargar</a>
+        </div>
+
+        <!-- Tarjeta macOS Intel -->
+        <div class="download-card">
+            <div class="os-info">
+                <h3>26.8.3 macOS (Intel)</h3>
+                <p>Descargar mediante torrent o consultar todos los enlaces alternativos.</p>
+            </div>
+            <a href="#" class="btn-download">No disponible por el momento</a>
+        </div>
+
+        <!-- Tarjeta Linux -->
+        <div class="download-card">
+            <div class="os-info">
+                <h3>26.8.3 Linux (deb)</h3>
+                <p>Para distribuciones basadas en Debian/Ubuntu.</p>
+            </div>
+            <a href="#" class="btn-download">No disponible por el momento</a>
+        </div>
+
+        <h2 class="section-title">Funcionalidades nuevas</h2>
+        <p>Descubre las mejoras más recientes en nuestra versión estable más reciente.</p>
+        
+        <div style="background: white; padding: 20px; border-radius: 8px; margin-top: 20px;">
+            <h3>Compatibilidad con Markdown</h3>
+            <p>Importe y exporte documentos en Markdown, un popular lenguaje de marcación ligero.</p>
+            
+            <h3>Conectores en Calc y Writer</h3>
+            <p>Cree conexiones visuales entre celdas y objetos de texto.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 The Document Foundation. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
